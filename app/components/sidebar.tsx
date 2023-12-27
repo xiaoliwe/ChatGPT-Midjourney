@@ -128,6 +128,7 @@ export function SideBar(props: { className?: string }) {
         </div>
       </div>
 
+      /*
       <div className={styles["sidebar-header-bar"]}>
         <IconButton
           icon={<MaskIcon />}
@@ -143,7 +144,8 @@ export function SideBar(props: { className?: string }) {
           onClick={() => window.open(REPO_URL + "-Pro", "_blank")}
           shadow
         />
-      </div>
+      </div> 
+      */
 
       <div
         className={styles["sidebar-body"]}
